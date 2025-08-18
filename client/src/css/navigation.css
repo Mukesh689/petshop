@@ -1,0 +1,40 @@
+.navibar {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navibar .nav-link:hover,
+.navibar .nav-link:active,
+.navibar .dropdown-toggle:hover,
+.navibar .dropdown-toggle:active {
+    color: #f25f5c !important;
+    /* Use !important to ensure override of Bootstrap defaults */
+}
+
+/* Apply hover effect to the Navbar Brand */
+.navbar-brand:hover,
+.navbar-brand:active {
+    color: #f25f5c !important;
+}
+
+/* Apply hover effect specifically to the profile icon dropdown toggle */
+#profile-nav-dropdown .dropdown-toggle:hover,
+#profile-nav-dropdown .dropdown-toggle:active {
+    color: #f25f5c !important;
+}
+
+/* Ensure dropdown items also have a consistent hover style if needed */
+.dropdown-item:hover,
+.dropdown-item:active {
+    background-color: #f25f5c !important;
+    /* Example: change background on hover for dropdown items */
+    color: white !important;
+}
+.navibar:hover{
+    color: #f25f5c;
+}

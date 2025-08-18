@@ -1,0 +1,67 @@
+.aboutimg {
+    background: url('pexels-chevanon-1108099.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius:20px;
+}
+.aboutimg button{
+    font-weight: bold;
+    background-color:#f55b5b;
+    color: white;
+    border-style: none;
+}
+
+.aboutimg button:hover{
+    background-color: white;
+    color: #f55b5b;
+}
+.aboutimg h1{
+    color: white;
+}
+.aboutimg h3{
+    color: white;
+}
+.abouttitle{
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+    left: 500px;
+}
+.centerimg{
+    background: url('pexels-septimiu-lupea-208604-669015.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  border-radius: 10px;
+}
+
+.centertag1{
+    background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid white;
+  backdrop-filter: blur(5px);
+    margin-top:100px;
+    height: 60%;
+    border: 2px solid;
+    margin-left:100px;
+    font-weight: bold;
+}
+
+.centertag2{
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid white;
+  color: white;
+  padding:10px;
+  margin-right:70%;
+  width: 390px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  position: relative;
+  left: 100px;
+  top: 30px;
+  transition: transform 0.3s ease-in-out;
+}

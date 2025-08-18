@@ -1,0 +1,265 @@
+.body {
+   font-family: "Dancing Script, cursive";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.slider div{
+    color: rgb(42, 97, 42);
+    font-size: 15px;
+  font-weight: bold;
+}
+.slide3{
+    position:absolute;
+    right:400px;
+    bottom: 170px;
+}
+span{
+    color: #f55b5b;
+}
+.slide1{
+    position:absolute;
+    right:410px;
+    bottom: 180px;
+}
+.slide2{
+    position:absolute;
+    left:545px;
+    bottom:20px;
+}
+.img3{
+    position: relative;
+    left: 40%;
+}
+p{
+ font-size: 20px;   
+}
+.slider-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.label {
+  font-weight: 500;
+  color: #001f2f;
+  margin-bottom: 10px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.range-wrapper {
+  position: relative;
+  padding: 20px 0;
+}
+
+.custom-range {
+  width: 100%;
+  height: 10px;
+  background: #0d3f3f;
+  border-radius: 5px;
+  outline: none;
+  margin: 0;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background: #f55b5b;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.thumb {
+  position: relative;
+  top: 2px;
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  background-color: #f55b5b;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  z-index: 3;
+  pointer-events: none;
+  transform: translateX(calc(-100% + 40px));
+}
+
+.total-amount {
+  font-size: 3rem;
+  color: #f55b5b;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+.pet-shop {
+  color: #f55b5b;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url('DeWatermark.ai_1752923392580.jpeg');
+  background-size: cover;              /* ✅ scales image to fill div */
+  background-position: center center;  /* ✅ centers image */
+  background-repeat: no-repeat;        /* ✅ avoids repeating */
+  width: 100%;
+  height: 600px;
+}
+
+
+.card-top {
+  text-align: center;
+  background-color: #f45c57;
+  color:white;
+  height: 300px;
+  position: relative;
+  clip-path: ellipse(150% 100% at 50% 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #003d2e;
+  margin-bottom: 0.5rem;
+}
+
+.view-more {
+  color: #f45c57;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.underline {
+  width: 40px;
+  height: 4px;
+  background-color: #f45c57;
+  margin-top: 5px;
+}
+
+.petshop {
+  background-image: url('DeWatermark.ai_1752923392580.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.petshop h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.petshop h1 span {
+  color: #e74c3c; /* red */
+}
+
+.petshop p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Pricing Cards Grid */
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.pricing-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid white;
+  padding: 30px 20px;
+  width: 280px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card.highlight {
+  background-color: #f25f5c;
+  color: white;
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+}
+
+.pricing-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.pricing-card h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.pricing-card ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2ecc71; /* green check */
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.ball{
+  position: absolute;
+  left: 875px;
+  top: 190px;
+  animation: bounce 2s infinite ease-in-out;
+  z-index:1;
+  
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); } /* move up */
+  100% { transform: translateY(0); }
+}

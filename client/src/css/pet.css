@@ -1,0 +1,66 @@
+/* Container for the image */
+.pet-image-container {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Image styling */
+.pet-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Card styling */
+.pet-card {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pet-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styling */
+.pet-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Details section */
+.pet-details {
+  color: #555;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+/* Button styling */
+.pet-card .btn-warning {
+  background-color: #ffc107;
+  border: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.pet-card .btn-warning:hover {
+  background-color: #e0a800;
+}
+
+/* Make all columns equal height */
+.row > .col > .pet-card {
+  height: 100%;
+}
