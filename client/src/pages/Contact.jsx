@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <div className='container'>
       <Container className="contact-form">
-      <h2>Contact Us</h2>
+        <h2 className='text-dark'>Contact Us</h2>
       <form onSubmit={handleSubmit} className=''>
         <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
         <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
